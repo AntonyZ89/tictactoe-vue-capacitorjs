@@ -1,6 +1,14 @@
 # Vue 3 + Vite + CapacitorJS
 
 <p align="center">
+   <img src="./docs/assets/game.png" alt="Game screenshot" height="400" />
+</p>
+
+<p align="center">
+   A cross-plataform game made with
+</p>
+
+<p align="center">
    <img src="./public/vite.svg" alt="Vite" width="100" height="100" />
    <img src="./src/assets/vue.svg" alt="Vue" width="100" height="100" />
    <img src="./src/assets/capacitor-js.svg" alt="CapacitorJS" width="100" height="100" />
