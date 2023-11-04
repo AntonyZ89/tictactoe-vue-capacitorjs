@@ -7,26 +7,15 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
-    Button: typeof import('./src/components/ui/button/Button.vue')['default']
     Footer: typeof import('./src/components/Footer.vue')['default']
     GameBoard: typeof import('./src/components/game/board/GameBoard.vue')['default']
     GameBoardItem: typeof import('./src/components/game/board/GameBoardItem.vue')['default']
     GameBoardMark: typeof import('./src/components/game/board/GameBoardMark.vue')['default']
     GameEnd: typeof import('./src/components/game/GameEnd.vue')['default']
-    GameHomeEnterButton: typeof import('./src/components/game/home/HomeEnterButton.vue')['default']
     GameResult: typeof import('./src/components/game/GameResult.vue')['default']
     GameToolbar: typeof import('./src/components/game/GameToolbar.vue')['default']
-    HelloTest: typeof import('./src/components/hello/Test.vue')['default']
-    HelloWorld: typeof import('./src/components/HelloWorld.vue')['default']
-    HomeEnterButton: typeof import('./src/components/home/HomeEnterButton.vue')['default']
     Logo: typeof import('./src/components/Logo.vue')['default']
-    NavbarMobile: typeof import('./src/components/navbar/mobile/NavbarMobile.vue')['default']
-    NavbarMobileItem: typeof import('./src/components/navbar/mobile/NavbarMobileItem.vue')['default']
-    NavbarMobileNavbar: typeof import('./src/components/navbar/mobile/Navbar.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Test: typeof import('./src/components/hello/Test.vue')['default']
-    UiButton: typeof import('./src/components/ui/button/Button.vue')['default']
-    UiButtonButton: typeof import('./src/components/ui/button/Button.vue')['default']
   }
 }
